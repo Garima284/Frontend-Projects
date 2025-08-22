@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Services in India | OnlineMeels.com</title>
+    <link rel="stylesheet" media="screen and (max-width:1000px)" href="css/phone.css">
+<link rel="stylesheet" href="css/style.css ">
+<style>
+/*CSS Reset*/
+*{
+    margin:0;
+    padding:0;
+}
+/* CSS Variables*/
+:root{
+    --navbar-height:60px;
+}
+/*Navigation Batr*/
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+}
+#navbar::before{
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/*logo and images*/
+#logo{
+    margin:  10px 34px;
+}
+#logoimg{
+    height: 23px;
+    margin: 3px 5px;
+    width: 23px;
+}
+#navbar{
+    position: absolute;
+}
+#navbar ul{
+    display: flex;
+    font-family: sans-serif;
+}
+#navbar ul li{
+    color:white;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color:black;
+   background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 45px 150px;
+    height: 405px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    background:url('../bg food.avif') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    color: rgb(229, 232, 235);
+    text-align: center;
+    font-family: cursive;
+
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: cursive;
+}
+/*Services Center*/
+#services{
+    display: flex;
+    margin:0cqb;
+    height: 100%;
+    width: 100%;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 10px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;  
+}
+#services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;  
+}
+#services .box p{
+    font-family: cursive;
+}
+/*Client Section*/
+#client-section{
+    height: 344px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../bg.avif');
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 40px;
+}
+#clients img{
+    height: 100px;
+    border: 3.5px solid black;
+    border-radius: 10px;
+    
+}
+/*Contact Section*/
+#contact{
+    position: relative;
+    height:90%;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(../contact2.webp) ;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: ;
+    
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+/*Utility Class*/
+.h-primary{
+    font-size: 3.8rem;
+    padding: 8px;
+    font-family: sans-serif;
+}
+.h-secondary{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    margin:  17px;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="Food ogo.jpg" alt="OnlineMeels.com" >
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="#">Rating/Suggestions</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to OnlineMeels</h1>
+        <p>In our day-to-day lives, our stomachs are the most important organ. It's therefore essential to feed them healthy food and drink. We show you what you can do to keep your stomach healthy.</p>
+       <p>Some people think that eating fast food is cheaper than eating at a restaurant, but this is not necessarily true! We show you how you can save money by cooking yourself instead of going out.</p>
+        <button class="btn">Order Now</button>
+       </h1>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center"> Provided Services</h1>
+    <div id="services">
+        <div class="box" >
+        <img src="food ordering.avif" alt="">
+        <h2 class="h-secondary center">Food Ordering</h2>
+        <p class="center">Our perfectly grilled ribeye steak is seared to perfection, with a mouth-watering crust that gives way to tender, juicy meat with every bite.When we are hungry, our concentration level drops. Even the littlest tasks can seem daunting. Therefore, the goal was to create an intuitive design — one that lets the users complete their desired task with almost no mental effort.</p>
+        </div>
+        <div class="box">
+        <img src="catering.avif" alt="">
+        <h2 class="h-secondary center">Catering </h2>
+        <p class="center">OnlineMeal made it super easy for me to build an online menu that was easy for customers to navigate and customize their orders and freeing up valuable time on my end for me to tackle other tasks. The time I spent processing orders has been cut by over 80% and it’s been such a relief and help to have more time on my hands.</p>
+        </div>
+        <div class="box">
+            <img src="delivery.avif" alt="">
+            <h2 class="h-secondary center">Bulk Ordering</h2>
+            <p class="center">Ordering food from OnlineMeals make you feel stressfree.All the responsiblity comes to us for making your event extermely special. just pick up the best of your choice and then check the taste and enhance your food according to your need.We provide best deals and best options to you. Contact us and place your order now. </p>
+         </div>
+    </div>
+    </section>
+ <section id="client-section">
+    <h1 class="h-primary center">Our Clients</h1>
+    <div id="clients">
+        <div class="client-item">
+            <img src="Client1.jpg" alt="">
+        </div>
+        <div class="client-item">
+            <img src="Client2.jpeg" alt="">
+        </div>
+        <div class="client-item">
+            <img src="Client3.png" alt="">
+        </div>
+        <div class="client-item">
+            <img src="Client4.png" alt="">
+        </div>
+        <div class="client-item">
+            <img src="Client5.png" alt="">
+        </div>
+    </div>
+ </section>
+ <section id="contact">
+    <h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+        <form action="">
+            <div class="form-group">
+                <lable for="Name">Name: </lable>
+                <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <lable for="email">Email: </lable>
+                <input type="email" name="Name" id=email" placeholder="Enter Your Email">
+            </div>
+            <div class="form-group">
+                <lable for="Phone">Phone Number: </lable>
+                <input type="Phone" name="Name" id="Phone" placeholder="Enter Your Phone Number">
+            </div>
+            <div class="form-group">
+                <lable for="Message">Message: </lable>
+                <textarea name="Message" id="Message" cols="30" rows="10"></textarea>
+            </div>
+        </form>
+    </div>
+ </section>
+ <footer>
+    <div class="center">
+        copyright &copy;www.OnlineMeal.com. All rights reserved!
+    </div>
+ </footer>
+</body>
+</html>
+
